@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "bot",
+    "eh2telegraph",
+]
+
+[profile.release]
+lto = true
+opt-level = 3

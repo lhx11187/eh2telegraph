@@ -1,0 +1,18 @@
+pub(crate) static VERSION: &str = concat!(
+    "\n",
+    "Build Timestamp: \t",
+    env!("VERGEN_BUILD_TIMESTAMP"),
+    "\n",
+    "Package Version: \t",
+    env!("VERGEN_BUILD_SEMVER"),
+    "\n",
+    "rustc Version: \t\t",
+    env!("VERGEN_RUSTC_SEMVER"),
+    "\n",
+    "cargo Profile: \t\t",
+    env!("VERGEN_CARGO_PROFILE"),
+    "\n",
+    "cargo Target: \t\t",
+    env!("VERGEN_CARGO_TARGET_TRIPLE"),
+    "\n",
+);
