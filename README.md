@@ -90,5 +90,9 @@ To minimize duplicate pulls, this project uses in-memory caching and remote pers
 
 Since it takes some time to synchronize image sets, to avoid repeated synchronization, this project uses [singleflight-async](https://github.com/ihciah/singleflight-async) to reduce this kind of waste.
 
+## Contribute Guidelines
+The initial version is written by qini7 and ihciah.
+
+You are welcome to contribute code to this project(no matter how small the commit is)!
 
 Translated with www.DeepL.com/Translator (free version)

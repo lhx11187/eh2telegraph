@@ -90,3 +90,8 @@ Github Action 可以用于自动构建 Docker 镜像，本项目支持自动构�
 为了尽可能少地重复拉取，本项目使用了内存缓存与远程持久化缓存。远程持久化缓存使用 Cloudflare Worker 配合 Cloudflare KV 搭建。项目主代码参考 [cloudflare-kv-proxy](https://github.com/ihciah/cloudflare-kv-proxy)。
 
 由于同步图片集需要一定时间，为了避免重复同步，本项目使用了 [singleflight-async](https://github.com/ihciah/singleflight-async) 减少这类浪费。
+
+## 贡献指引
+第一版实现由 qini7 和 ihciah 完成。
+
+欢迎你对本项目贡献代码！无论大小我们都欢迎！
